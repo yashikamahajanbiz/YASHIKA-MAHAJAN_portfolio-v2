@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7e5d7"/>
+      <stop offset="50%" stop-color="#f4b36b"/>
+      <stop offset="100%" stop-color="#7ed4ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.1" r="0.9">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="#f6f1ea"/>
+  <rect width="800" height="1000" fill="url(#grad)" opacity="0.9"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <circle cx="400" cy="360" r="180" fill="#f9efe6" opacity="0.9"/>
+  <rect x="190" y="560" width="420" height="260" rx="120" fill="#f9efe6" opacity="0.9"/>
+  <circle cx="330" cy="330" r="18" fill="#191919"/>
+  <circle cx="470" cy="330" r="18" fill="#191919"/>
+  <path d="M300 420 Q400 480 500 420" fill="none" stroke="#191919" stroke-width="12" stroke-linecap="round"/>
+  <text x="50%" y="92%" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="28" fill="#1b1b1b" opacity="0.8">Portrait placeholder</text>
+</svg>
