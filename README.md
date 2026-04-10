@@ -29,3 +29,4 @@ Open `http://localhost:3000` in your browser.
 `npm audit` may report moderate vulnerabilities from ESLint's internal dependency (`ajv`).
 These are dev-time only (lint tooling), not production runtime issues.
 We keep ESLint enabled for code quality.
+# YASHIKA-MAHAJAN_portfolio-v2
