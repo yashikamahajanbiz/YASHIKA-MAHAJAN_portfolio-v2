@@ -1,0 +1,71 @@
+{
+  "note": "What they ate and where. Entries marked confirmed:true come from the booking sheet or the day sheets. The rest of this section fills from the camera roll - add an entry, point it at a media id, done.",
+  "meals": [
+    {
+      "id": "f_fiskeriet",
+      "place": "Fiskeriet Bj\u00f8rvika",
+      "city": "Oslo",
+      "stop": "oslo",
+      "dateLabel": "15 Nov 2025",
+      "dateISO": "2025-11-15",
+      "meal": "Dinner",
+      "time": "21:30",
+      "blurb": "The first night. Off the plane, onto a train, into an Uber, dropped the bags, and walked twelve minutes to a fish restaurant on the Bj\u00f8rvika waterfront. This is where the trip actually starts.",
+      "confirmed": true,
+      "first": true,
+      "media": []
+    },
+    {
+      "id": "f_oslo_breakfast",
+      "place": "The flat at S\u00f8rengkaia",
+      "city": "Oslo",
+      "stop": "oslo",
+      "dateLabel": "17 Nov 2025",
+      "dateISO": "2025-11-17",
+      "meal": "Breakfast",
+      "time": "07:15",
+      "blurb": "Eaten fast, with one eye on the clock \u2014 the Bergen train left Oslo S at 08:25 and does not negotiate.",
+      "confirmed": true,
+      "media": []
+    },
+    {
+      "id": "f_havila_dinner",
+      "place": "On board Havila",
+      "city": "Leaving Bergen",
+      "stop": "bergen",
+      "dateLabel": "19 Nov 2025",
+      "dateISO": "2025-11-19",
+      "meal": "Dinner",
+      "time": "19:30",
+      "blurb": "Luggage in the cabin, then dinner in the ship's restaurant while Bergen slid away behind. The voyage was full board \u2014 every meal for two days came off that galley.",
+      "confirmed": true,
+      "media": []
+    },
+    {
+      "id": "f_havila_breakfast",
+      "place": "On board Havila",
+      "city": "Coming into Trondheim",
+      "stop": "trondheim",
+      "dateLabel": "21 Nov 2025",
+      "dateISO": "2025-11-21",
+      "meal": "Breakfast",
+      "time": "09:00",
+      "blurb": "The last meal on the ship, eaten while it came up the fjord into Trondheim. Ashore at 09:45.",
+      "confirmed": true,
+      "media": []
+    },
+    {
+      "id": "f_klosteret",
+      "place": "Klosteret",
+      "city": "Oslo",
+      "stop": "oslo",
+      "dateLabel": "16 Nov 2025",
+      "dateISO": "2025-11-16",
+      "meal": "Shortlisted",
+      "time": null,
+      "blurb": "On the Oslo day-two list, in the cellar of an old monastery. Whether they went is not written down anywhere \u2014 she will know.",
+      "confirmed": false,
+      "media": []
+    }
+  ]
+}

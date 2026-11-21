@@ -1,0 +1,106 @@
+{
+  "note": "Eleven distinct modes of travel across seventeen days. Counts are taken from the booking sheet, not from memory.",
+  "modes": [
+    {
+      "id": "uber",
+      "name": "Uber",
+      "count": "four rides",
+      "where": "Noida \u00b7 Oslo \u00b7 Trondheim",
+      "blurb": "The one o'clock cab from Cleo County that started everything, the run from Oslo S down to S\u00f8rengkaia, and the 180-krone cab up from Trondheim port because there had already been enough walking.",
+      "stops": ["cleo-county", "oslo", "trondheim"],
+      "media": []
+    },
+    {
+      "id": "aircraft",
+      "name": "Aircraft",
+      "count": "eight flights, six airlines",
+      "where": "Delhi \u00b7 Istanbul \u00b7 Oslo \u00b7 Trondheim \u00b7 Troms\u00f8 \u00b7 Rovaniemi \u00b7 Stockholm \u00b7 Baku",
+      "blurb": "IndiGo, Turkish, SAS twice, Finnair, Pegasus, and Azerbaijan Airlines twice. Six airlines, four of which she had never flown before.",
+      "stops": ["delhi-t1", "istanbul-layover", "oslo", "tromso", "rovaniemi", "istanbul", "baku", "delhi"],
+      "media": []
+    },
+    {
+      "id": "airport-train",
+      "name": "Airport train",
+      "count": "one run",
+      "where": "Gardermoen \u2192 Oslo S",
+      "blurb": "Twenty-three minutes from the runway into the middle of Oslo, and already covered by the Oslo Pass bought at the other end.",
+      "stops": ["oslo"],
+      "media": []
+    },
+    {
+      "id": "bergen-railway",
+      "name": "Bergen Railway",
+      "count": "four and a half hours",
+      "where": "Oslo S \u2192 Myrdal",
+      "blurb": "08:25 to 13:04, over the Hardangervidda. The line climbs out of the city and does not really come down again until the coast.",
+      "stops": ["myrdal"],
+      "media": []
+    },
+    {
+      "id": "flam-railway",
+      "name": "Fl\u00e5m Railway",
+      "count": "865 metres down",
+      "where": "Myrdal \u2192 Fl\u00e5m",
+      "blurb": "Fifty minutes, twenty tunnels, and a gradient that should not work without a rack. One of the steepest adhesion railways in the world, and the reason people come to Myrdal at all.",
+      "stops": ["flam"],
+      "hero": true,
+      "media": []
+    },
+    {
+      "id": "fjord-ferry",
+      "name": "Fjord ferry",
+      "count": "two hours",
+      "where": "Fl\u00e5m \u2192 Gudvangen",
+      "blurb": "Through the N\u00e6r\u00f8yfjord, which is on the UNESCO list and is two kilometres wide at its narrowest with walls twelve hundred metres high.",
+      "stops": ["gudvangen"],
+      "media": []
+    },
+    {
+      "id": "coach",
+      "name": "Coach",
+      "count": "two and a half hours",
+      "where": "Gudvangen \u2192 Bergen",
+      "blurb": "Up the hairpins out of the fjord in the dark, arriving in Bergen at 19:25.",
+      "stops": ["bergen"],
+      "media": []
+    },
+    {
+      "id": "coastal-ship",
+      "name": "Coastal ship",
+      "count": "two nights, six ports",
+      "where": "Bergen \u2192 Trondheim",
+      "blurb": "Havila, reference 401377. Flor\u00f8 at 02:45, M\u00e5l\u00f8y at 05:15, Torvik at 08:20, a whole day in \u00c5lesund, Molde at 22:35, Kristiansund at 02:45. The working coast, on its own timetable.",
+      "stops": ["floro", "maloy", "torvik", "alesund", "molde", "kristiansund", "trondheim"],
+      "media": []
+    },
+    {
+      "id": "city-bus",
+      "name": "City bus",
+      "count": "several",
+      "where": "Bergen \u00b7 Trondheim",
+      "blurb": "The Vy buses from Bergen busstasjon out to Torborg Nedreaas' gate, and the FB73 from Solsiden at five in the morning to catch the flight north.",
+      "stops": ["bergen", "tromso"],
+      "media": []
+    },
+    {
+      "id": "santa-claus-express",
+      "name": "Santa Claus Express",
+      "count": "thirteen hours",
+      "where": "Rovaniemi \u2192 Turku",
+      "blurb": "The overnight VR sleeper, 17:52 to 07:33, down the entire length of Finland while asleep. It is a train. It has always been a train.",
+      "stops": ["turku"],
+      "hero": true,
+      "media": []
+    },
+    {
+      "id": "baltic-ferry",
+      "name": "Baltic ferry",
+      "count": "overnight",
+      "where": "Turku \u2192 Stockholm",
+      "blurb": "Sailed at 20:55, docked at 06:30, through the archipelago in the dark both ends.",
+      "stops": ["stockholm"],
+      "media": []
+    }
+  ]
+}
