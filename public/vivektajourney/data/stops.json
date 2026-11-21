@@ -1,0 +1,443 @@
+{
+  "title": "VIVEKTA",
+  "subtitle": "The Journey",
+  "tripStart": "2025-11-15",
+  "tripEnd": "2025-12-02",
+  "note": "Source of truth for the film and the archive. Edit this file, not the code. Place names on the globe are HTML, so name/subtitle/caption use correct spelling everywhere - Alesund is written Ålesund, Tromso is written Tromsø.",
+  "stops": [
+    {
+      "id": "cleo-county",
+      "name": "Cleo County, Noida",
+      "subtitle": "Home",
+      "dateLabel": "15 Nov",
+      "dateISO": "2025-11-15",
+      "lat": 28.594,
+      "lng": 77.368,
+      "coordsApprox": true,
+      "caption": "Where it began — a one o'clock cab to the airport, with the whole of November still ahead.",
+      "tier": "standard",
+      "arrivedBy": null,
+      "leg": "Getting there",
+      "media": [],
+      "tickets": []
+    },
+    {
+      "id": "delhi-t1",
+      "name": "Delhi Airport",
+      "subtitle": "Terminal 1",
+      "dateLabel": "15 Nov",
+      "dateISO": "2025-11-15",
+      "lat": 28.5562,
+      "lng": 77.1,
+      "coordsApprox": false,
+      "caption": "IndiGo, 06:40. Two large bags, two small, and a long way north.",
+      "tier": "standard",
+      "arrivedBy": "Uber, 01:00",
+      "leg": "Getting there",
+      "minorLabel": true,
+      "media": [],
+      "tickets": [
+        "t_indigo_del_ist"
+      ]
+    },
+    {
+      "id": "istanbul-layover",
+      "name": "Istanbul",
+      "subtitle": "IGA · layover",
+      "dateLabel": "15 Nov",
+      "dateISO": "2025-11-15",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "coordsApprox": false,
+      "caption": "Four hours between two continents. Landed 11:15, left again at 15:20.",
+      "tier": "standard",
+      "arrivedBy": "IndiGo",
+      "leg": "Getting there",
+      "media": [],
+      "tickets": [
+        "t_turkish_ist_osl"
+      ]
+    },
+    {
+      "id": "oslo",
+      "name": "Oslo",
+      "subtitle": "Sørengkaia",
+      "dateLabel": "15–17 Nov",
+      "dateISO": "2025-11-15",
+      "lat": 59.9139,
+      "lng": 10.7522,
+      "coordsApprox": false,
+      "caption": "Down at 17:20, then the airport train, then an Uber, then a flat on the water at Sørengkaia. Dinner that night at Fiskeriet Bjørvika, twelve minutes' walk away.",
+      "tier": "standard",
+      "arrivedBy": "Turkish Airlines, airport train, Uber",
+      "leg": "Oslo",
+      "panorama": "p_oslo_apartment",
+      "media": [],
+      "tickets": [
+        "t_airbnb_oslo",
+        "t_oslo_pass",
+        "t_vy_airport_train"
+      ]
+    },
+    {
+      "id": "myrdal",
+      "name": "Myrdal",
+      "subtitle": "Bergen Railway",
+      "dateLabel": "17 Nov",
+      "dateISO": "2025-11-17",
+      "lat": 60.7297,
+      "lng": 7.1244,
+      "coordsApprox": false,
+      "caption": "Oslo S at 08:25, Myrdal at 13:04. Four and a half hours across the mountains, and a one-minute walk from track 1 to track 11.",
+      "tier": "standard",
+      "arrivedBy": "Bergen Railway, 08:25 → 13:04",
+      "leg": "Into the fjords",
+      "minorLabel": true,
+      "media": [],
+      "tickets": [
+        "t_vy_bergen_railway"
+      ]
+    },
+    {
+      "id": "flam",
+      "name": "Flåm",
+      "subtitle": "Flåmsbana",
+      "dateLabel": "17 Nov",
+      "dateISO": "2025-11-17",
+      "lat": 60.8633,
+      "lng": 7.1133,
+      "coordsApprox": false,
+      "caption": "Fifty minutes and eight hundred and sixty-five metres down, on one of the steepest railways in the world. 13:15 at the top, 14:05 at the bottom, the fjord waiting at the end of it.",
+      "tier": "hero",
+      "arrivedBy": "Flåm Railway — 865 m descent",
+      "leg": "Into the fjords",
+      "media": [],
+      "tickets": [
+        "t_vy_flam_railway"
+      ]
+    },
+    {
+      "id": "gudvangen",
+      "name": "Gudvangen",
+      "subtitle": "Nærøyfjord",
+      "dateLabel": "17 Nov",
+      "dateISO": "2025-11-17",
+      "lat": 60.8697,
+      "lng": 6.8342,
+      "coordsApprox": false,
+      "caption": "Boarding at 14:30 sharp. Two hours through the Nærøyfjord, which is on the UNESCO list and looks like it knows.",
+      "tier": "standard",
+      "arrivedBy": "Nærøyfjord ferry",
+      "leg": "Into the fjords",
+      "minorLabel": true,
+      "media": [],
+      "tickets": [
+        "t_ferry_flam_gudvangen"
+      ]
+    },
+    {
+      "id": "bergen",
+      "name": "Bergen",
+      "subtitle": "Torborg Nedreaas' gate",
+      "dateLabel": "17–19 Nov",
+      "dateISO": "2025-11-17",
+      "lat": 60.3913,
+      "lng": 5.3221,
+      "coordsApprox": false,
+      "caption": "A five-minute walk to the E16, then the coach in from Gudvangen, arriving 19:25. Two days here, and a Bergen Card for both of them.",
+      "tier": "standard",
+      "arrivedBy": "Coach from Gudvangen",
+      "leg": "Bergen",
+      "media": [],
+      "tickets": [
+        "t_vy_bus_gudvangen",
+        "t_airbnb_bergen",
+        "t_bergen_card"
+      ]
+    },
+    {
+      "id": "floro",
+      "name": "Florø",
+      "subtitle": "Havila · port call",
+      "dateLabel": "20 Nov",
+      "dateISO": "2025-11-20",
+      "lat": 61.5994,
+      "lng": 5.0328,
+      "coordsApprox": false,
+      "caption": "02:45. Fifteen minutes alongside, and almost certainly asleep for it.",
+      "tier": "quick",
+      "arrivedBy": "Havila coastal voyage",
+      "leg": "The coastal voyage",
+      "minorLabel": true,
+      "media": [],
+      "tickets": [
+        "t_havila"
+      ]
+    },
+    {
+      "id": "maloy",
+      "name": "Måløy",
+      "subtitle": "Havila · port call",
+      "dateLabel": "20 Nov",
+      "dateISO": "2025-11-20",
+      "lat": 61.9369,
+      "lng": 5.1133,
+      "coordsApprox": false,
+      "caption": "05:15. Fifteen minutes alongside.",
+      "tier": "quick",
+      "arrivedBy": "Havila",
+      "leg": "The coastal voyage",
+      "minorLabel": true,
+      "media": [],
+      "tickets": [
+        "t_havila"
+      ]
+    },
+    {
+      "id": "torvik",
+      "name": "Torvik",
+      "subtitle": "Havila · port call",
+      "dateLabel": "20 Nov",
+      "dateISO": "2025-11-20",
+      "lat": 62.33,
+      "lng": 5.75,
+      "coordsApprox": true,
+      "caption": "08:20. Fifteen minutes alongside, and the light finally starting to come back.",
+      "tier": "quick",
+      "arrivedBy": "Havila",
+      "leg": "The coastal voyage",
+      "minorLabel": true,
+      "media": [],
+      "tickets": [
+        "t_havila"
+      ]
+    },
+    {
+      "id": "alesund",
+      "name": "Ålesund",
+      "subtitle": "Havila · ten hours ashore",
+      "dateLabel": "20 Nov",
+      "dateISO": "2025-11-20",
+      "lat": 62.4722,
+      "lng": 6.1549,
+      "coordsApprox": false,
+      "caption": "09:45 to 20:00 — a whole day ashore in the art nouveau town the sea keeps giving back.",
+      "tier": "standard",
+      "arrivedBy": "Havila — 10 hours ashore",
+      "leg": "The coastal voyage",
+      "media": [],
+      "tickets": [
+        "t_havila"
+      ]
+    },
+    {
+      "id": "molde",
+      "name": "Molde",
+      "subtitle": "Havila · port call",
+      "dateLabel": "20 Nov",
+      "dateISO": "2025-11-20",
+      "lat": 62.7375,
+      "lng": 7.1591,
+      "coordsApprox": false,
+      "caption": "22:35. Half an hour alongside, in the dark.",
+      "tier": "quick",
+      "arrivedBy": "Havila",
+      "leg": "The coastal voyage",
+      "minorLabel": true,
+      "media": [],
+      "tickets": [
+        "t_havila"
+      ]
+    },
+    {
+      "id": "kristiansund",
+      "name": "Kristiansund",
+      "subtitle": "Havila · port call",
+      "dateLabel": "21 Nov",
+      "dateISO": "2025-11-21",
+      "lat": 63.1105,
+      "lng": 7.7281,
+      "coordsApprox": false,
+      "caption": "02:45, in the dark again. The rhythm of a working coast.",
+      "tier": "quick",
+      "arrivedBy": "Havila",
+      "leg": "The coastal voyage",
+      "minorLabel": true,
+      "media": [],
+      "tickets": [
+        "t_havila"
+      ]
+    },
+    {
+      "id": "trondheim",
+      "name": "Trondheim",
+      "subtitle": "Rosenborg gate",
+      "dateLabel": "21–22 Nov",
+      "dateISO": "2025-11-21",
+      "lat": 63.4305,
+      "lng": 10.3951,
+      "coordsApprox": false,
+      "caption": "Ashore at 09:45 after breakfast on board. Nidaros Cathedral, the old bridge, and the painted streets of Bakklandet.",
+      "tier": "standard",
+      "arrivedBy": "Havila — ashore 09:45",
+      "leg": "Trondheim",
+      "media": [],
+      "tickets": [
+        "t_airbnb_trondheim"
+      ]
+    },
+    {
+      "id": "tromso",
+      "name": "Tromsø",
+      "subtitle": "Panorama Glass Lodge",
+      "dateLabel": "22–24 Nov",
+      "dateISO": "2025-11-22",
+      "lat": 69.66,
+      "lng": 19.15,
+      "coordsApprox": true,
+      "caption": "A five o'clock bus, then Trondheim → Oslo → Tromsø, both legs before noon. Three hundred and fifty kilometres inside the Arctic Circle.",
+      "tier": "standard",
+      "arrivedBy": "SAS SK341 and SK4414, via Oslo",
+      "leg": "The Arctic",
+      "coincident": true,
+      "media": [],
+      "tickets": [
+        "t_bus_fb73",
+        "t_sas_sk341",
+        "t_sas_sk4414",
+        "t_panorama_lodge"
+      ]
+    },
+    {
+      "id": "tromso-birthday",
+      "name": "Her birthday",
+      "subtitle": "Under the glass roof",
+      "dateLabel": "23 Nov",
+      "dateISO": "2025-11-23",
+      "lat": 69.66,
+      "lng": 19.15,
+      "coordsApprox": true,
+      "caption": "23 November 2025. A glass lodge in Krokelvdalen, and whatever the sky decided to do that night.",
+      "tier": "hero",
+      "arrivedBy": "Panorama Glass Lodge",
+      "leg": "The Arctic",
+      "star": true,
+      "media": [],
+      "tickets": [
+        "t_panorama_lodge"
+      ]
+    },
+    {
+      "id": "rovaniemi",
+      "name": "Rovaniemi",
+      "subtitle": "Nova Village Aurora Hut",
+      "dateLabel": "24–25 Nov",
+      "dateISO": "2025-11-24",
+      "lat": 66.5039,
+      "lng": 25.7294,
+      "coordsApprox": false,
+      "caption": "Finnair at 10:25, across the top of Scandinavia and down into Lapland. A glass hut again, because once was not enough.",
+      "tier": "standard",
+      "arrivedBy": "Finnair AY542",
+      "leg": "Lapland",
+      "media": [],
+      "tickets": [
+        "t_finnair_ay542",
+        "t_nova_village"
+      ]
+    },
+    {
+      "id": "turku",
+      "name": "Turku",
+      "subtitle": "Santa Claus Express",
+      "dateLabel": "26 Nov",
+      "dateISO": "2025-11-26",
+      "lat": 60.4518,
+      "lng": 22.2666,
+      "coordsApprox": false,
+      "caption": "17:52 to 07:33. Thirteen hours asleep on a train down the whole length of Finland, and awake again at the other end of it.",
+      "tier": "hero",
+      "arrivedBy": "Santa Claus Express — overnight VR sleeper",
+      "leg": "Lapland",
+      "media": [],
+      "tickets": [
+        "t_vr_santa_claus_express"
+      ]
+    },
+    {
+      "id": "stockholm",
+      "name": "Stockholm",
+      "subtitle": "Overnight ferry",
+      "dateLabel": "27–28 Nov",
+      "dateISO": "2025-11-27",
+      "lat": 59.3293,
+      "lng": 18.0686,
+      "coordsApprox": false,
+      "caption": "Sailed from Turku at 20:55, docked at 06:30, across the Baltic in the dark.",
+      "tier": "standard",
+      "arrivedBy": "Baltic ferry, overnight",
+      "leg": "Home the long way",
+      "media": [],
+      "tickets": [
+        "t_ferry_turku_stockholm",
+        "t_stockholm_stay"
+      ]
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "subtitle": "Gümüşsuyu, Taksim",
+      "dateLabel": "28 Nov–1 Dec",
+      "dateISO": "2025-11-28",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "coordsApprox": false,
+      "caption": "Pegasus out of Arlanda at 15:20. Three days on the way home, which is the best kind of three days.",
+      "tier": "standard",
+      "arrivedBy": "Pegasus Airlines",
+      "leg": "Home the long way",
+      "media": [],
+      "tickets": [
+        "t_pegasus_arn_saw",
+        "t_istanbul_stay"
+      ]
+    },
+    {
+      "id": "baku",
+      "name": "Baku",
+      "subtitle": "Heydar Aliyev",
+      "dateLabel": "1 Dec",
+      "dateISO": "2025-12-01",
+      "lat": 40.4093,
+      "lng": 49.8671,
+      "coordsApprox": false,
+      "caption": "Azerbaijan Airlines, 12:20 to 16:10 — the last connection, and the last airport of seventeen days.",
+      "tier": "standard",
+      "arrivedBy": "Azerbaijan Airlines J2076",
+      "leg": "Home the long way",
+      "minorLabel": true,
+      "media": [],
+      "tickets": [
+        "t_azal_j2076"
+      ]
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "subtitle": "Home",
+      "dateLabel": "2 Dec",
+      "dateISO": "2025-12-02",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "coordsApprox": false,
+      "caption": "Landed 03:25. Seventeen days, eleven ways of travelling, and one birthday under a glass roof.",
+      "tier": "standard",
+      "arrivedBy": "Azerbaijan Airlines J2057",
+      "leg": "Home the long way",
+      "media": [],
+      "tickets": [
+        "t_azal_j2057"
+      ]
+    }
+  ]
+}

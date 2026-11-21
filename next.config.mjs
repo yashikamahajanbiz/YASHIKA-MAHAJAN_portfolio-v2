@@ -11,6 +11,19 @@ const nextConfig = {
         source: "/classic-sub",
         destination: "/classic-sub/index.html",
         permanent: false
+      },
+      // Static sub-site in public/vivektajourney. Redirecting to index.html
+      // (rather than rewriting) keeps the browser URL inside the folder, so
+      // the sub-site's relative asset paths resolve — same as /classic-sub.
+      {
+        source: "/vivektajourney",
+        destination: "/vivektajourney/index.html",
+        permanent: false
+      },
+      {
+        source: "/vivektajourney/",
+        destination: "/vivektajourney/index.html",
+        permanent: false
       }
     ];
   },
